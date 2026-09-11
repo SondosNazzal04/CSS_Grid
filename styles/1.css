@@ -1,0 +1,11 @@
+.box {
+	width: 200px;
+	height: 200px;
+	background-color: slateblue;
+	margin: 10px;
+}
+
+.parent {
+	display: grid;
+	grid-template-columns: 220px 220px 220px 220px;
+}
