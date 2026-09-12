@@ -1,0 +1,41 @@
+header {
+	background-color: rgb(255, 255, 50);
+}
+
+nav {
+	background-color: rgb(50, 255, 255);
+}
+
+.side-bar {
+	background-color: tomato;
+}
+
+article {
+	background-color: lightsteelblue;
+}
+
+footer {
+	background-color:  rgb(30, 30, 70);
+}
+
+body {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	display: grid;
+	grid-template-rows: 1fr 5fr 1fr;
+}
+
+h1 {
+	text-align: center;
+}
+
+* {
+	border-radius: 2vh;
+	margin: 1vh;
+	padding: 1vh;
+}
+
+.main {
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+}
