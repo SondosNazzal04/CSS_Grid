@@ -1,0 +1,35 @@
+img{
+	width: 20vh;
+	height: 15vh;
+}
+
+.main {
+	display: grid;
+	grid-template-columns: repeat(4, 30vh);
+	gap: 5vh;
+}
+
+h1 {
+	font-size: medium;
+}
+
+.cards {
+	display: flex;
+	flex-direction: column;
+	border: black solid 1px;
+	border-radius: 10px;
+	padding: 1vh;
+	/* align-items: center; */
+	justify-content: flex-start;
+}
+
+.cards button {
+	/* align-self: flex-end; */
+	margin-top: auto;
+	background-color: teal;
+	border: 0;
+	color: white;
+	border-radius: 15px;
+	font-size: large;
+	padding: 2px;
+}
