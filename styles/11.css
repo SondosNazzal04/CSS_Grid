@@ -1,0 +1,28 @@
+.parent {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	gap: 5px;
+}
+
+.item {
+	background-color: lightgray;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 5px;
+	padding: 5px;
+}
+
+.sub {
+	background-color: gray;
+	padding: 5px;
+}
+
+.item:nth-child(6) .sub {
+	grid-row: 1 / span 2;
+}
+
+.item:nth-child(7) .sub {
+	grid-column: 1 / span 2;
+}
