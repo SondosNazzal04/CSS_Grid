@@ -1,0 +1,20 @@
+.parent {
+	display: grid;
+	grid-template-columns: 45vh 45vh 45vh;
+	/* grid-template-rows: 35vh 35vh 35vh; */
+	align-content: center;
+	gap: 5px;
+	justify-items: center;
+	height: 100vh;
+}
+
+img {
+	width: 45vh;
+	height: 30vh;
+	margin: 0;
+}
+
+body {
+	display: grid;
+	justify-content: center;
+}
