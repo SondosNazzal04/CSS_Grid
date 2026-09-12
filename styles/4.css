@@ -1,0 +1,22 @@
+.parent {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 1vh;
+}
+
+img {
+	width: 100%;
+	/* height: 100%; */
+	/* justify-self: start; */
+}
+
+.img p {
+	background-color: rgba(200, 200, 200, 0.5);
+	width: fit-content;
+	padding: 1vh;
+	position: relative;
+	top: 7vh;
+	/* opacity: 50%; */
+
+}
